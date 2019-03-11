@@ -35,11 +35,13 @@ int main( int argc, char* argv[]) {
 
   int iterations = stoi(argv[3]);
 
-  Mat a = imread(argv[1]+string("/_1.jpg"), IMREAD_GRAYSCALE);
-  Mat b = imread(argv[1]+string("/_2.jpg"), IMREAD_GRAYSCALE);
-  Mat c = imread(argv[1]+string("/_3.jpg"), IMREAD_GRAYSCALE);
+  Mat a = imread(argv[1]+string("/final_1.jpg"), IMREAD_GRAYSCALE);
+  Mat b = imread(argv[1]+string("/final_2.jpg"), IMREAD_GRAYSCALE);
+  Mat c = imread(argv[1]+string("/final_3.jpg"), IMREAD_GRAYSCALE);
   
-  A = imread(argv[1]+string("/_1.jpg"), IMREAD_GRAYSCALE);
+  
+  A = imread(argv[1]+string("/final_1.jpg"), IMREAD_GRAYSCALE);
+  //TODO: change pyrDown for a resize solution that doesnt blur
   pyrDown(A, tmp, Size(A.cols/2, A.rows/2));
   A = tmp.clone();
   pyrDown(A, tmp, Size(A.cols/2, A.rows/2));
@@ -47,7 +49,7 @@ int main( int argc, char* argv[]) {
   pyrDown(A, tmp, Size(A.cols/2, A.rows/2));
   A = tmp.clone();
 
-  B = imread(argv[1]+string("/_2.jpg"), IMREAD_GRAYSCALE);
+  B = imread(argv[1]+string("/final_2.jpg"), IMREAD_GRAYSCALE);
   pyrDown(B, tmp, Size(B.cols/2, B.rows/2));
   B = tmp.clone();
   pyrDown(B, tmp, Size(B.cols/2, B.rows/2));
@@ -55,7 +57,7 @@ int main( int argc, char* argv[]) {
   pyrDown(B, tmp, Size(B.cols/2, B.rows/2));
   B = tmp.clone();
 
-  C = imread(argv[1]+string("/_3.jpg"), IMREAD_GRAYSCALE);
+  C = imread(argv[1]+string("/final_3.jpg"), IMREAD_GRAYSCALE);
   pyrDown(C, tmp, Size(C.cols/2, C.rows/2));
   C = tmp.clone();
   pyrDown(C, tmp, Size(C.cols/2, C.rows/2));

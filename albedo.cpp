@@ -48,7 +48,7 @@ int main( int argc, char* argv[]) {
 
   O = AverageImages(A, B, C, I);
 
-  imwrite(argv[1]+string("/avg.jpg"), O);
+  imwrite(argv[1]+string("/albedo.jpg"), O);
  
   return 0;
 }
