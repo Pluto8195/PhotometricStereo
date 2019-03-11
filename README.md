@@ -15,13 +15,13 @@ Place them in a folder with a name of your choosing, and label the images (*_1.j
 
 Steps should be done in the order as followed or based on your discretion
 
-###Albedo
+### Albedo
 ```
 ./albedo [foldername]/
 ```
 > computes and albedo map for the subject by computing pixel averages across the 3 images
 
-###Affine Transform
+### Affine Transform
 ```
 python affine.py [foldername]/
 ```
@@ -30,7 +30,7 @@ python affine.py [foldername]/
 > click bottom left, top left, top right
 > hit [esc]
 
-###Crop
+### Crop
 ```
 python crop.py [foldername]/
 ```
@@ -39,7 +39,7 @@ python crop.py [foldername]/
 > opens up window to draw a rectangle, from top left to bottom right of subject
 > hit [esc]
 
-###Compute Normal
+### Compute Normal
 ```
 ./normal [foldername]/ [threshold](int) [iterations](int)
 ```
