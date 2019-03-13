@@ -12,6 +12,9 @@ using namespace cv;
 using namespace std;
 
 
+//TODO: 
+// 1. Change pyrDown for a resize solution that doesnt blur
+// 2. Define better cost function, not just about the sum of differences on pixels but how evenly they are distributed
 
 Mat& ScanImage(Mat& I);
 Mat& ComputeNormal(Mat& A, Mat& B, Mat& C, Mat& O, int th, Mat& S);
@@ -109,8 +112,13 @@ int main( int argc, char* argv[]) {
 
     O = ComputeNormal(A, B, C, O, threshold, CalibNew);
     costNew = CalculateCost(O);
-
+    
     if(costNew < costOld) {
+      cout << costNew << "\n";
+      namedWindow( "Display window", WINDOW_AUTOSIZE );// Create a window for display.
+      imshow( "Display window", O );    
+      waitKey(10);
+      costOld = costNew;
       CalibOld = CalibNew.clone();
     }
 

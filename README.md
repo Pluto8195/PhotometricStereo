@@ -21,13 +21,13 @@ Steps should be done in the order as followed or based on your discretion
 ```
 > computes and albedo map for the subject by computing pixel averages across the 3 images
 
-### Affine Transform
+### Perspective Transform
 ```
-python affine.py [foldername]/
+python transform.py [foldername]/
 ```
 > used to straigten the subject
-> will openup window were you can click on 3 corners for transform
-> click bottom left, top left, top right
+> will openup window were you can click on 4 corners for transform
+> click bottom left, top left, top right, bottom right
 > hit [esc]
 
 ### Crop
@@ -45,5 +45,5 @@ python crop.py [foldername]/
 ```
 > Computes normal map
 > Threshold -> ignores sections were the grayscaled image value is below a certain intensity (used to discard shadows)
-> Iterations -> number of iterations to run for simulated annealing, usually 1000, but ranges can be from 500-7000
+> Iterations -> number of iterations to run for simulated annealing, usually 200, but ranges can be from 500-7000
 
