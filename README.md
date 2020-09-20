@@ -17,9 +17,9 @@ Steps should be done in the order as followed or based on your discretion
 
 ## Example
 
-<img src="./Examples/_1.jpg" width="30%">
-<img src="./Examples/_2.jpg" width="30%">
-<img src="./Examples/_3.jpg" width="30%">
+<img src="./Examples/_1.jpg" width="30%" display="inline-block">
+<img src="./Examples/_2.jpg" width="30%" display="inline-block">
+<img src="./Examples/_3.jpg" width="30%" display="inline-block">
 
 ### Albedo
 ```
