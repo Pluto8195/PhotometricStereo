@@ -17,7 +17,20 @@ Steps should be done in the order as followed or based on your discretion
 
 ## Example
 
+
 <img src="./Examples/_1.jpg" width="30%"> <img src="./Examples/_2.jpg" width="30%"> <img src="./Examples/_3.jpg" width="30%">
+> 3 sources images
+> subject and camera position are constant 
+> light position varies and positions are unknown
+
+<img src="./Examples/final_1.jpg" width="30%"> <img src="./Examples/final_2.jpg" width="30%"> <img src="./Examples/final_3.jpg" width="30%">
+> Peform affine adjustments and crop for straight images
+
+<img src="./Examples/final_1.jpg" width="30%"> <img src="./Examples/final_2.jpg" width="30%"> <img src="./Examples/final_3.jpg" width="30%">
+
+<img src="./Examples/normal_100_400.jpg" width="30%"> <img src="./Examples/albedo.jpg" width="30%">
+> Generated Normal map along with albedo map ready to use
+
 
 ### Albedo
 ```
