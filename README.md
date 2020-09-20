@@ -34,6 +34,9 @@ Steps should be done in the order as followed or based on your discretion
 > Generated Normal map along with albedo map ready to use
 
 
+<img src="./Examples/demo2.gif" width="50%"> <img src="./Examples/demo3.gif" width="50%">
+> Map in use via A-FRAME(three.js)
+
 ### Albedo
 ```
 ./albedo [foldername]/
