@@ -17,9 +17,9 @@ Steps should be done in the order as followed or based on your discretion
 
 ## Example
 
-![example](./Examples/_1.jpg)
-![example](./Examples/_2.jpg)
-![example](./Examples/_3.jpg)
+<img src="./Examples/_1.jpg">
+<img src="./Examples/_2.jpg">
+<img src="./Examples/_3.jpg">
 
 ### Albedo
 ```
