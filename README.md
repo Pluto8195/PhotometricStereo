@@ -15,6 +15,12 @@ Place them in a folder with a name of your choosing, and label the images (*_1.j
 
 Steps should be done in the order as followed or based on your discretion
 
+## Example
+
+![example](./Examples/_1.jpg)
+![example](./Examples/_2.jpg)
+![example](./Examples/_3.jpg)
+
 ### Albedo
 ```
 ./albedo [foldername]/
