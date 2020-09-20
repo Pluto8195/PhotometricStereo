@@ -26,6 +26,9 @@ Steps should be done in the order as followed or based on your discretion
 <img src="./Examples/final_1.jpg" width="30%"> <img src="./Examples/final_2.jpg" width="30%"> <img src="./Examples/final_3.jpg" width="30%">
 > Peform affine adjustments and crop for straight images
 
+<img src="./Examples/demo.gif" width="30%">
+> Visualization of estimated light positions
+
 <img src="./Examples/normal_100_400.jpg" width="30%"> <img src="./Examples/albedo.jpg" width="30%">
 > Generated Normal map along with albedo map ready to use
 
