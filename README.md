@@ -9,7 +9,7 @@ OpenCV scripts for generating normalMaps using photometric stereo technique
 
 ## Uses
 
-For a particular art peice choose 3 photos under different lighting conditions were the camera and subject do not more (are aligned)
+For a particular art peice choose 3 photos under different lighting conditions where the camera and subject do not move (are aligned)
 
 Place them in a folder with a name of your choosing, and label the images (*_1.jpg, _2.jpg, _3.jpg*)
 
