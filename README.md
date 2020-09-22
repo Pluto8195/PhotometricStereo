@@ -26,7 +26,7 @@ Steps should be done in the order as followed or based on your discretion
 <img src="./Examples/final_1.jpg" width="30%"> <img src="./Examples/final_2.jpg" width="30%"> <img src="./Examples/final_3.jpg" width="30%">
 > Peform affine adjustments and crop for straight images
 
-<img src="./Examples/demo.gif" width="50%">
+<img src="./Examples/demonew.gif" width="50%">
 
 > Visualization of estimated light positions
 
