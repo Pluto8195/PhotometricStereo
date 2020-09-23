@@ -30,7 +30,7 @@ Steps should be done in the order as followed or based on your discretion
 
 > Visualization of estimated light positions
 
-<img src="./Examples/normal_20_500.jpg" width="30%"> <img src="./Examples/albedo.jpg" width="30%">
+<img src="./Examples/normal_20_500.jpg" width="40%"> <img src="./Examples/albedo.jpg" width="40%">
 > Generated Normal map along with albedo map ready to use
 
 
