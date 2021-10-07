@@ -5,7 +5,7 @@ OpenCV scripts for generating normalMaps using photometric stereo technique
 ## Dependencies
 
 * [OpenCV](https://medium.com/@jaskaranvirdi/setting-up-opencv-and-c-development-environment-in-xcode-b6027728003)
-* [OpenCV(python bindings)](https://expressjs.com/)
+* [OpenCV(python bindings)](http://web.cecs.pdx.edu/~fliu/courses/cs410/python-opencv.html)
 
 ## Uses
 
